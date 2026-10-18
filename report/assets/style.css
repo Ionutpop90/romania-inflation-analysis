@@ -82,7 +82,7 @@ a { color: var(--accent-ink); text-underline-offset: 2px; }
 @media (max-width: 760px) { .nav { display: none; } .icon-btn { margin-left: auto; } }
 
 /* ============ Hero ============ */
-.hero { padding: 64px 0 32px; }
+.hero { padding-top: 64px; padding-bottom: 32px; }
 .eyebrow {
   display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600;
   letter-spacing: .06em; text-transform: uppercase; color: var(--accent-ink);
@@ -142,7 +142,7 @@ h1 {
 @media (max-width: 860px) { .findings { grid-template-columns: 1fr; } }
 
 /* ============ Sections ============ */
-section.chapter { padding: 56px 0 8px; scroll-margin-top: 64px; }
+section.chapter { padding-top: 56px; padding-bottom: 8px; scroll-margin-top: 64px; }
 .chapter-head { display: grid; grid-template-columns: 220px 1fr; gap: 24px; margin-bottom: 24px; }
 .chapter-num { font-size: 13px; font-weight: 700; letter-spacing: .08em; color: var(--muted); text-transform: uppercase; padding-top: 8px; }
 .chapter h2 {
