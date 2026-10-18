@@ -99,4 +99,4 @@ All data comes from Eurostat (© European Union, reuse authorised with attributi
 
 ---
 
-*Author: **Ionut Daniel Pop** · GitHub [@Ionutpop90](https://github.com/Ionutpop90) · Other projects: [Europe housing affordability](https://github.com/Ionutpop90/europe-housing-affordability)*
+*Author: **Ionut Daniel Pop** · GitHub [@Ionutpop90](https://github.com/Ionutpop90) · Other projects: [Europe health check](https://github.com/Ionutpop90/europe-health-check) · [Europe housing affordability](https://github.com/Ionutpop90/europe-housing-affordability)*
