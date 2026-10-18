@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inflația în România vs. UE</title>
+  <meta name="description" content="Analiză de date: inflația din România comparativ cu UE, 2015–2026. Ce a scumpit viața, rolul șocurilor fiscale și energetice și impactul asupra puterii de cumpărare. Date Eurostat, Python, DuckDB SQL.">
+  <meta property="og:title" content="Inflația în România vs. UE, 2015–2026">
+  <meta property="og:description" content="Un raport interactiv construit pe 141 de luni de date oficiale Eurostat.">
+  <meta property="og:image" content="assets/preview.png">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232a78d6'/%3E%3Cpath d='M7 22l6-6 4 4 8-9' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/style.css">
+  <script>
+    try { const t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <div class="brand">Inflația RO <span>· raport de date</span></div>
+      <nav class="nav" aria-label="Secțiuni">
+        <a href="#rezumat">Rezumat</a>
+        <a href="#ue">România în UE</a>
+        <a href="#cauze">Cauze</a>
+        <a href="#socuri">Șocuri</a>
+        <a href="#deceniu">Un deceniu</a>
+        <a href="#salarii">Salarii</a>
+        <a href="#concluzii">Concluzii</a>
+        <a href="#metodologie">Metodologie</a>
+      </nav>
+      <button class="icon-btn" id="theme" type="button" aria-label="Comută tema luminoasă/întunecată">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO ================= -->
+    <section class="hero wrap" id="rezumat">
+      <div class="eyebrow">Proiect de analiză de date · Eurostat HICP</div>
+      <h1>România, campioana inflației în UE: ce s-a scumpit și cine plătește</h1>
+      <p class="lede">
+        Am analizat <span data-k="nMonths">141</span> de luni de date oficiale (ianuarie 2015 – <span data-k="latestLong">septembrie 2026</span>)
+        ca să răspund la trei întrebări: cât de departe este România de media europeană, ce categorii de cheltuieli au
+        împins prețurile în sus și ce a însemnat asta pentru puterea de cumpărare.
+      </p>
+      <div class="byline">
+        <span>Analiză: <b>Ionuț</b></span>
+        <span>Sursa: <b>Eurostat</b>, actualizată <span data-k="generated"></span></span>
+        <span>Instrumente: <b>Python · DuckDB SQL · SVG/JS</b></span>
+      </div>
+
+      <div class="kpis">
+        <article class="kpi hero-kpi">
+          <div>
+            <div class="label">Inflația anuală în România, <span data-k="latestLong"></span></div>
+            <div class="value" data-k="roLatest">–</div>
+          </div>
+          <div>
+            <span class="badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4M12 17h.01"/><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg>
+              Locul <span data-k="roRank"></span> din 27 în UE
+            </span>
+            <svg class="spark" id="spark" aria-hidden="true"></svg>
+            <div class="sub">Ultimele 36 de luni · linia gri = media UE din ultima lună</div>
+          </div>
+        </article>
+        <article class="kpi">
+          <div class="label">Media UE, aceeași lună</div>
+          <div class="value" data-k="euLatest">–</div>
+          <div class="sub">România: <span data-k="gapLatest"></span> peste medie</div>
+        </article>
+        <article class="kpi">
+          <div class="label">Luni consecutive pe locul 1 în UE</div>
+          <div class="value" data-k="streak">–</div>
+          <div class="sub" data-k="streakRange"></div>
+        </article>
+        <article class="kpi">
+          <div class="label">Creșterea prețurilor din 2015</div>
+          <div class="value" data-k="cumRo">–</div>
+          <div class="sub">UE: <span data-k="cumEu"></span> în aceeași perioadă</div>
+        </article>
+        <article class="kpi">
+          <div class="label">Puterea de cumpărare a salariului minim, ian 2025 – iun 2026</div>
+          <div class="value" data-k="wageErosion">–</div>
+          <div class="sub">Salariu înghețat la <span data-k="frozenWage"></span> lei brut timp de 18 luni</div>
+        </article>
+      </div>
+
+      <ol class="findings">
+        <li><strong>Distanța față de UE nu se închide.</strong> România a avut o inflație mai mare decât media UE în
+          <span data-k="monthsAbove"></span> din <span data-k="nMonths"></span> de luni și a fost pe primul loc în UE în
+          <span data-k="monthsTop"></span> dintre ele.</li>
+        <li><strong>Vârful din 2025–2026 a venit din decizii de politică publică.</strong> Expirarea plafonării prețului la energie
+          (iulie 2025) și majorarea TVA (august 2025) au urcat inflația de la <span data-k="pre2025">5,8%</span> la <span data-k="post2025">8,5%</span> în două luni.
+          Efectul a dispărut din indicator după exact 12 luni.</li>
+        <li><strong>Inflația s-a mutat de la alimente la servicii.</strong> În <span data-k="latestLong"></span> serviciile aduc
+          <span data-k="servicesPp"></span> puncte procentuale din <span data-k="roLatest2"></span>, cea mai mare componentă. Alimentele au coborât la doar
+          <span data-k="foodPp"></span> pp.</li>
+      </ol>
+    </section>
+
+    <!-- ================= 1. EU CONTEXT ================= -->
+    <section class="chapter wrap" id="ue">
+      <div class="chapter-head">
+        <div class="chapter-num">01 · România în UE</div>
+        <div>
+          <h2>Peste media europeană aproape tot deceniul și pe locul 1 din martie 2025</h2>
+          <p class="intro">Ambele economii au trecut prin șocul energetic din 2022. Diferența este ce s-a întâmplat după: în UE inflația a revenit
+            spre ținta de 2% în 2024, iar în România a pornit un al doilea val în 2025, declanșat de măsurile fiscale și energetice.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Inflația anuală (HICP), lunar, 2015–2026</h3>
+        <p class="desc">Variația prețurilor față de aceeași lună a anului precedent. Adăugați țări vecine pentru comparație.</p>
+        <div class="chips" id="peerChips" role="group" aria-label="Serii afișate"></div>
+        <div id="chartHeadline"></div>
+        <div class="card-foot">
+          <span>Sursa: Eurostat, prc_hicp_minr (RCH_A, TOTAL)</span>
+          <details class="data"><summary>Vezi datele</summary></details>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Clasamentul UE, <span data-k="latestLong"></span></h3>
+          <p class="desc">Inflația anuală pe țări. Linia verticală marchează media UE.</p>
+          <div id="chartRanking"></div>
+          <div class="card-foot">
+            <span>Sursa: Eurostat, prc_hicp_minr</span>
+            <details class="data"><summary>Vezi datele</summary></details>
+          </div>
+        </div>
+        <div class="card">
+          <h3>De câte ori a fost România pe locul 1, pe an</h3>
+          <p class="desc">Numărul de luni în care România a avut cea mai mare inflație anuală dintre cele 27 de state membre.</p>
+          <div id="chartTopYears"></div>
+          <div class="callout" style="margin-top:20px">
+            <strong>Citire:</strong> poziția de lider nu e o anomalie recentă. România a mai fost pe primul loc în 2018–2019 (21 de luni)
+            și în 2024 (11 luni). Seria actuală, de <span data-k="streak2"></span> luni consecutive, este cea mai lungă din perioada analizată.
+          </div>
+          <div class="card-foot">
+            <span>Calcul propriu: rank() pe 27 de țări, lunar</span>
+            <details class="data"><summary>Vezi datele</summary></details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 2. DRIVERS ================= -->
+    <section class="chapter wrap" id="cauze">
+      <div class="chapter-head">
+        <div class="chapter-num">02 · Ce împinge prețurile</div>
+        <div>
+          <h2>Ce componente urcă inflația: de la energie și alimente la servicii</h2>
+          <p class="intro">Fiecare categorie contribuie la inflația totală proporțional cu ponderea ei în coșul de consum.
+            <em>Contribuție = pondere × rata anuală.</em> Alimentele au 27% din coșul românesc (16% în UE), așa că orice scumpire la raft
+            se vede imediat în indicatorul total.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Contribuții la inflația anuală a României, în puncte procentuale</h3>
+        <p class="desc">Coloanele însumează contribuțiile celor cinci grupe; linia arată inflația publicată. Treceți cu mouse-ul peste grafic pentru detalii pe fiecare lună.</p>
+        <ul class="legend" id="legendContrib"></ul>
+        <div id="chartContrib"></div>
+        <div class="card-foot">
+          <span>Calcul propriu din prc_hicp_minr × prc_hicp_iw · eroare medie de reconstrucție <span data-k="qa"></span> pp</span>
+          <details class="data"><summary>Vezi datele</summary></details>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Cine contribuie acum, <span data-k="latestLong"></span></h3>
+          <p class="desc">Contribuția fiecărei divizii COICOP la inflația de <span data-k="roLatest3"></span>.</p>
+          <div id="chartDivContrib"></div>
+          <div class="card-foot">
+            <span>Pondere coș 2026 × rata anuală</span>
+            <details class="data"><summary>Vezi datele</summary></details>
+          </div>
+        </div>
+        <div class="card">
+          <h3>România vs. UE, pe categorii</h3>
+          <p class="desc">Rata anuală în <span data-k="latestLong"></span>. România e peste UE la <span data-k="divAbove"></span> din 13 categorii.</p>
+          <ul class="legend" id="legendDivYoy"></ul>
+          <div id="chartDivYoy"></div>
+          <div class="card-foot">
+            <span>Sursa: Eurostat, prc_hicp_minr</span>
+            <details class="data"><summary>Vezi datele</summary></details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 3. SHOCKS ================= -->
+    <section class="chapter wrap" id="socuri">
+      <div class="chapter-head">
+        <div class="chapter-num">03 · Șocurile din 2025–2026</div>
+        <div>
+          <h2>Electricitatea s-a scumpit cu 63% într-o singură lună, apoi efectul a dispărut din statistică</h2>
+          <p class="intro">Inflația anuală compară prețul de azi cu cel de acum 12 luni. Un salt de preț produs o singură dată rămâne în indicator
+            exact un an, apoi iese din calcul (<em>efect de bază</em>). Asta explică scăderea bruscă din iulie–august 2026, deși prețurile nu au scăzut.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Prețurile la energie în România, variație anuală</h3>
+        <p class="desc">Electricitate, gaze naturale și carburanți (HICP).</p>
+        <ul class="legend" id="legendEnergy"></ul>
+        <div id="chartEnergy"></div>
+        <div class="card-foot">
+          <span>Sursa: Eurostat, prc_hicp_minr (CP0451, CP0452, CP0722)</span>
+          <details class="data"><summary>Vezi datele</summary></details>
+        </div>
+      </div>
+      <div class="callout">
+        <strong>De urmărit:</strong> carburanții au urcat cu <span data-k="fuelsLatest"></span> față de anul trecut (în UE, +31%).
+        Spre deosebire de electricitate, acesta nu e un salt produs o singură dată, ci o creștere care continuă. Transportul este astăzi cea mai mare
+        contribuție individuală la inflație.
+      </div>
+    </section>
+
+    <!-- ================= 4. DECADE ================= -->
+    <section class="chapter wrap" id="deceniu">
+      <div class="chapter-head">
+        <div class="chapter-num">04 · Un deceniu de prețuri</div>
+        <div>
+          <h2>Coșul de consum costă cu <span data-k="cumRo2"></span> mai mult decât în 2015. Media UE: <span data-k="cumEu2"></span></h2>
+          <p class="intro">Dacă ne uităm la nivelul prețurilor, nu doar la ritmul lor, diferența e mare: orice categorie de cheltuieli
+            s-a scumpit în România mai mult decât în UE. Cel mai mult au crescut serviciile financiare, utilitățile și restaurantele.</p>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Creșterea cumulată a prețurilor, 2015 → <span data-k="latestLong"></span></h3>
+        <p class="desc">Indice HICP 2015 = 100, pe divizii COICOP. Ordonat după creșterea din România.</p>
+        <ul class="legend" id="legendCum"></ul>
+        <div id="chartCum"></div>
+        <div class="card-foot">
+          <span>Sursa: Eurostat, prc_hicp_minr (I15)</span>
+          <details class="data"><summary>Vezi datele</summary></details>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Inflația medie anuală în România, pe categorii și ani</h3>
+        <p class="desc">Albastru = prețuri în scădere, roșu = în creștere. Scala e plafonată la ±15%.</p>
+        <div id="chartHeat"></div>
+        <div class="scale" aria-hidden="true">
+          <span>−15%</span><span class="bar" id="heatScale"></span><span>+15%</span>
+        </div>
+        <div class="card-foot">
+          <span>Sursa: Eurostat, prc_hicp_ainr (RCH_A_AVG)</span>
+          <details class="data"><summary>Vezi datele</summary></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 5. WAGES ================= -->
+    <section class="chapter wrap" id="salarii">
+      <div class="chapter-head">
+        <div class="chapter-num">05 · Putere de cumpărare</div>
+        <div>
+          <h2>Salariul minim a crescut mai repede decât prețurile, cu excepția ultimelor 18 luni</h2>
+          <p class="intro">Am raportat salariul minim brut la indicele prețurilor, ambele cu baza 2015 = 100. Pe termen lung, câștigul real e
+            semnificativ. Înghețarea salariului minim la <span data-k="frozenWage2"></span> lei (ianuarie 2025 – iunie 2026), într-o perioadă cu inflație de 8–9%,
+            a anulat o parte din câștig.</p>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Salariul minim brut vs. prețuri, indice 2015 = 100</h3>
+        <p class="desc">Salariul real = salariul nominal ajustat cu indicele prețurilor.</p>
+        <ul class="legend" id="legendWage"></ul>
+        <div id="chartWage"></div>
+        <div class="card-foot">
+          <span>Sursa: Eurostat, earn_mw_cur (NAC) și prc_hicp_minr (I15)</span>
+          <details class="data"><summary>Vezi datele</summary></details>
+        </div>
+      </div>
+      <div class="callout">
+        <strong>Atenție la 2018:</strong> transferul contribuțiilor sociale de la angajator la angajat a majorat salariile <em>brute</em>
+        cu aproximativ 20% fără un câștig echivalent în salariul net. Dacă pornim din ianuarie 2018, salariul minim real a crescut cu
+        <span data-k="real2018"></span>, nu de 2,4 ori.
+      </div>
+    </section>
+
+    <!-- ================= 6. CONCLUSIONS ================= -->
+    <section class="chapter wrap" id="concluzii">
+      <div class="chapter-head">
+        <div class="chapter-num">06 · Concluzii</div>
+        <div>
+          <h2>Ce înseamnă datele în practică</h2>
+          <p class="intro">Recomandări formulate strict pe baza analizei de mai sus, pentru trei tipuri de cititori.</p>
+        </div>
+      </div>
+      <div class="recs">
+        <article class="rec">
+          <div class="who">Companii · HR</div>
+          <h3>Bugetați salariile pe inflația din servicii</h3>
+          <ul>
+            <li>Inflația totală scade din cauza efectelor de bază, dar inflația din servicii rămâne ridicată. Salariații o simt la restaurante, telecom, educație și recreere.</li>
+            <li>Salariul minim a rămas 18 luni în urmă față de prețuri în 2025–2026. Pentru salariile mici, o indexare de două ori pe an protejează puterea de cumpărare.</li>
+          </ul>
+        </article>
+        <article class="rec">
+          <div class="who">Retail · pricing</div>
+          <h3>Presiunea s-a mutat de pe raft pe pompă</h3>
+          <ul>
+            <li>Alimentele au coborât la <span data-k="foodYoy"></span> anual, deci clienții vor fi mai sensibili la scumpirile de pe raft.</li>
+            <li>Costurile de transport și logistică (carburanți <span data-k="fuelsLatest2"></span>) sunt acum principalul risc pentru marje. Merită incluse ca factor explicit în modelele de preț.</li>
+          </ul>
+        </article>
+        <article class="rec">
+          <div class="who">Analiză · decizie publică</div>
+          <h3>Citiți indicatorul cu efectele de bază în minte</h3>
+          <ul>
+            <li>Scăderea de la 9,7% (mai 2026) la 6,3% (august 2026) e în mare parte mecanică: salturile din iulie–august 2025 au ieșit din comparația anuală. Nu e o dezinflație propriu-zisă.</li>
+            <li>Măsurile fiscale cu efect de nivel (TVA, accize, plafonări) ar trebui comunicate împreună cu impactul estimat pe 12 luni asupra inflației.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= 7. METHOD ================= -->
+    <section class="chapter wrap" id="metodologie">
+      <div class="chapter-head">
+        <div class="chapter-num">07 · Metodologie</div>
+        <div>
+          <h2>Cum a fost construită analiza</h2>
+          <p class="intro">Totul e reproductibil: un singur set de comenzi descarcă datele, construiește modelele SQL și regenerează acest raport.</p>
+        </div>
+      </div>
+      <div class="pipeline" aria-label="Fluxul de date">
+        <div class="step"><b>Extract</b><span>API Eurostat (JSON-stat)</span></div><span class="arrow">→</span>
+        <div class="step"><b>Load</b><span>DuckDB, 5 tabele raw</span></div><span class="arrow">→</span>
+        <div class="step"><b>Transform</b><span>SQL: staging → marts</span></div><span class="arrow">→</span>
+        <div class="step"><b>QA</b><span>reconciliere contribuții</span></div><span class="arrow">→</span>
+        <div class="step"><b>Raport</b><span>SVG/JS interactiv</span></div>
+      </div>
+      <div class="card method">
+        <div>
+          <h3>Date</h3>
+          <ul>
+            <li><code>prc_hicp_minr</code>: HICP lunar, ECOICOP v2 (rată anuală, indice 2015 = 100)</li>
+            <li><code>prc_hicp_ainr</code>: HICP, medii anuale pe divizii</li>
+            <li><code>prc_hicp_iw</code>: ponderile coșului de consum (‰)</li>
+            <li><code>earn_mw_cur</code>: salariul minim lunar, semestrial</li>
+          </ul>
+          <h3>Definiții</h3>
+          <p><strong>HICP</strong> (Indicele armonizat al prețurilor de consum) e măsura comparabilă între statele UE. Poate diferi ușor de IPC-ul publicat de INS,
+            din cauza metodologiei și a ponderilor.</p>
+        </div>
+        <div>
+          <h3>Tehnici folosite</h3>
+          <ul>
+            <li>Funcții fereastră SQL: <code>rank()</code> pentru clasamentul lunar și metoda <em>gaps-and-islands</em> pentru seriile consecutive pe locul 1</li>
+            <li>Analiză de contribuție: <code>pondere × rată anuală</code>, cu ponderile anului curent</li>
+            <li>Ajustare la inflație: salariul real = salariul nominal ÷ indicele prețurilor</li>
+          </ul>
+          <h3>Limitări</h3>
+          <ul>
+            <li>Contribuțiile sunt o aproximare (HICP e un indice înlănțuit anual). Suma lor diferă de rata publicată cu <span data-k="qa2"></span> pp în medie și cu maximum <span data-k="qaMax"></span> pp.</li>
+            <li>Salariul minim e <em>brut</em>, iar schimbările de fiscalitate (2018) afectează comparația cu salariul net.</li>
+            <li>Analiza e descriptivă și nu conține prognoze.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>Date: © Uniunea Europeană, Eurostat. Reutilizare permisă cu menționarea sursei.</span>
+      <span>Ultima lună disponibilă: <span data-k="latestLong"></span></span>
+    </div>
+  </footer>
+
+  <script type="module" src="assets/app.js"></script>
+</body>
+</html>

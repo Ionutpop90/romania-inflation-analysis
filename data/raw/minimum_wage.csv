@@ -1,0 +1,505 @@
+freq,currency,geo,time,value,flag,currency_label,geo_label
+S,EUR,BG,2015-S1,184,,Euro,Bulgaria
+S,EUR,BG,2015-S2,194,,Euro,Bulgaria
+S,EUR,BG,2016-S1,215,,Euro,Bulgaria
+S,EUR,BG,2016-S2,215,,Euro,Bulgaria
+S,EUR,BG,2017-S1,235,,Euro,Bulgaria
+S,EUR,BG,2017-S2,235,,Euro,Bulgaria
+S,EUR,BG,2018-S1,261,,Euro,Bulgaria
+S,EUR,BG,2018-S2,261,,Euro,Bulgaria
+S,EUR,BG,2019-S1,286,,Euro,Bulgaria
+S,EUR,BG,2019-S2,286,,Euro,Bulgaria
+S,EUR,BG,2020-S1,312,,Euro,Bulgaria
+S,EUR,BG,2020-S2,312,,Euro,Bulgaria
+S,EUR,BG,2021-S1,332,,Euro,Bulgaria
+S,EUR,BG,2021-S2,332,,Euro,Bulgaria
+S,EUR,BG,2022-S1,332,,Euro,Bulgaria
+S,EUR,BG,2022-S2,363,,Euro,Bulgaria
+S,EUR,BG,2023-S1,399,,Euro,Bulgaria
+S,EUR,BG,2023-S2,399,,Euro,Bulgaria
+S,EUR,BG,2024-S1,477,,Euro,Bulgaria
+S,EUR,BG,2024-S2,477,,Euro,Bulgaria
+S,EUR,BG,2025-S1,551,,Euro,Bulgaria
+S,EUR,BG,2025-S2,551,,Euro,Bulgaria
+S,EUR,BG,2026-S1,620,,Euro,Bulgaria
+S,EUR,BG,2026-S2,620,,Euro,Bulgaria
+S,EUR,CZ,2015-S1,332,,Euro,Czechia
+S,EUR,CZ,2015-S2,338,,Euro,Czechia
+S,EUR,CZ,2016-S1,366,,Euro,Czechia
+S,EUR,CZ,2016-S2,365,,Euro,Czechia
+S,EUR,CZ,2017-S1,407,,Euro,Czechia
+S,EUR,CZ,2017-S2,420,,Euro,Czechia
+S,EUR,CZ,2018-S1,478,,Euro,Czechia
+S,EUR,CZ,2018-S2,469,,Euro,Czechia
+S,EUR,CZ,2019-S1,519,,Euro,Czechia
+S,EUR,CZ,2019-S2,525,,Euro,Czechia
+S,EUR,CZ,2020-S1,575,,Euro,Czechia
+S,EUR,CZ,2020-S2,546,,Euro,Czechia
+S,EUR,CZ,2021-S1,579,,Euro,Czechia
+S,EUR,CZ,2021-S2,596,,Euro,Czechia
+S,EUR,CZ,2022-S1,652,,Euro,Czechia
+S,EUR,CZ,2022-S2,655,,Euro,Czechia
+S,EUR,CZ,2023-S1,717,,Euro,Czechia
+S,EUR,CZ,2023-S2,729,,Euro,Czechia
+S,EUR,CZ,2024-S1,764,,Euro,Czechia
+S,EUR,CZ,2024-S2,755,,Euro,Czechia
+S,EUR,CZ,2025-S1,826,,Euro,Czechia
+S,EUR,CZ,2025-S2,841,,Euro,Czechia
+S,EUR,CZ,2026-S1,924,,Euro,Czechia
+S,EUR,CZ,2026-S2,923,,Euro,Czechia
+S,EUR,HR,2015-S1,396,,Euro,Croatia
+S,EUR,HR,2015-S2,399,,Euro,Croatia
+S,EUR,HR,2016-S1,408,,Euro,Croatia
+S,EUR,HR,2016-S2,414,,Euro,Croatia
+S,EUR,HR,2017-S1,433,,Euro,Croatia
+S,EUR,HR,2017-S2,442,,Euro,Croatia
+S,EUR,HR,2018-S1,462,,Euro,Croatia
+S,EUR,HR,2018-S2,466,,Euro,Croatia
+S,EUR,HR,2019-S1,506,,Euro,Croatia
+S,EUR,HR,2019-S2,507,,Euro,Croatia
+S,EUR,HR,2020-S1,546,,Euro,Croatia
+S,EUR,HR,2020-S2,546,,Euro,Croatia
+S,EUR,HR,2021-S1,563,,Euro,Croatia
+S,EUR,HR,2021-S2,567,,Euro,Croatia
+S,EUR,HR,2022-S1,624,,Euro,Croatia
+S,EUR,HR,2022-S2,622,,Euro,Croatia
+S,EUR,HR,2023-S1,700,,Euro,Croatia
+S,EUR,HR,2023-S2,700,,Euro,Croatia
+S,EUR,HR,2024-S1,840,,Euro,Croatia
+S,EUR,HR,2024-S2,840,,Euro,Croatia
+S,EUR,HR,2025-S1,970,,Euro,Croatia
+S,EUR,HR,2025-S2,970,,Euro,Croatia
+S,EUR,HR,2026-S1,1050,,Euro,Croatia
+S,EUR,HR,2026-S2,1050,,Euro,Croatia
+S,EUR,HU,2015-S1,333,,Euro,Hungary
+S,EUR,HU,2015-S2,333,,Euro,Hungary
+S,EUR,HU,2016-S1,351,,Euro,Hungary
+S,EUR,HU,2016-S2,350,,Euro,Hungary
+S,EUR,HU,2017-S1,412,,Euro,Hungary
+S,EUR,HU,2017-S2,413,,Euro,Hungary
+S,EUR,HU,2018-S1,445,,Euro,Hungary
+S,EUR,HU,2018-S2,418,,Euro,Hungary
+S,EUR,HU,2019-S1,464,,Euro,Hungary
+S,EUR,HU,2019-S2,461,,Euro,Hungary
+S,EUR,HU,2020-S1,487,,Euro,Hungary
+S,EUR,HU,2020-S2,452,,Euro,Hungary
+S,EUR,HU,2021-S1,442,,Euro,Hungary
+S,EUR,HU,2021-S2,476,,Euro,Hungary
+S,EUR,HU,2022-S1,542,,Euro,Hungary
+S,EUR,HU,2022-S2,504,,Euro,Hungary
+S,EUR,HU,2023-S1,579,,Euro,Hungary
+S,EUR,HU,2023-S2,624,,Euro,Hungary
+S,EUR,HU,2024-S1,697,,Euro,Hungary
+S,EUR,HU,2024-S2,675,,Euro,Hungary
+S,EUR,HU,2025-S1,707,,Euro,Hungary
+S,EUR,HU,2025-S2,727,,Euro,Hungary
+S,EUR,HU,2026-S1,838,,Euro,Hungary
+S,EUR,HU,2026-S2,906,,Euro,Hungary
+S,EUR,PL,2015-S1,410,,Euro,Poland
+S,EUR,PL,2015-S2,418,,Euro,Poland
+S,EUR,PL,2016-S1,434,,Euro,Poland
+S,EUR,PL,2016-S2,417,,Euro,Poland
+S,EUR,PL,2017-S1,453,,Euro,Poland
+S,EUR,PL,2017-S2,473,,Euro,Poland
+S,EUR,PL,2018-S1,503,,Euro,Poland
+S,EUR,PL,2018-S2,480,,Euro,Poland
+S,EUR,PL,2019-S1,523,,Euro,Poland
+S,EUR,PL,2019-S2,529,,Euro,Poland
+S,EUR,PL,2020-S1,611,,Euro,Poland
+S,EUR,PL,2020-S2,583,,Euro,Poland
+S,EUR,PL,2021-S1,614,,Euro,Poland
+S,EUR,PL,2021-S2,619,,Euro,Poland
+S,EUR,PL,2022-S1,655,,Euro,Poland
+S,EUR,PL,2022-S2,642,,Euro,Poland
+S,EUR,PL,2023-S1,746,,Euro,Poland
+S,EUR,PL,2023-S2,811,,Euro,Poland
+S,EUR,PL,2024-S1,978,,Euro,Poland
+S,EUR,PL,2024-S2,998,,Euro,Poland
+S,EUR,PL,2025-S1,1091,,Euro,Poland
+S,EUR,PL,2025-S2,1100,,Euro,Poland
+S,EUR,PL,2026-S1,1139,,Euro,Poland
+S,EUR,PL,2026-S2,1119,,Euro,Poland
+S,EUR,RO,2015-S1,218,,Euro,Romania
+S,EUR,RO,2015-S2,235,,Euro,Romania
+S,EUR,RO,2016-S1,232,,Euro,Romania
+S,EUR,RO,2016-S2,276,,Euro,Romania
+S,EUR,RO,2017-S1,275,,Euro,Romania
+S,EUR,RO,2017-S2,319,,Euro,Romania
+S,EUR,RO,2018-S1,408,,Euro,Romania
+S,EUR,RO,2018-S2,407,,Euro,Romania
+S,EUR,RO,2019-S1,446,,Euro,Romania
+S,EUR,RO,2019-S2,439,,Euro,Romania
+S,EUR,RO,2020-S1,466,,Euro,Romania
+S,EUR,RO,2020-S2,461,,Euro,Romania
+S,EUR,RO,2021-S1,458,,Euro,Romania
+S,EUR,RO,2021-S2,467,,Euro,Romania
+S,EUR,RO,2022-S1,515,,Euro,Romania
+S,EUR,RO,2022-S2,516,,Euro,Romania
+S,EUR,RO,2023-S1,606,,Euro,Romania
+S,EUR,RO,2023-S2,604,,Euro,Romania
+S,EUR,RO,2024-S1,663,,Euro,Romania
+S,EUR,RO,2024-S2,743,,Euro,Romania
+S,EUR,RO,2025-S1,814,,Euro,Romania
+S,EUR,RO,2025-S2,797,,Euro,Romania
+S,EUR,RO,2026-S1,795,,Euro,Romania
+S,EUR,RO,2026-S2,825,,Euro,Romania
+S,EUR,SK,2015-S1,380,,Euro,Slovakia
+S,EUR,SK,2015-S2,380,,Euro,Slovakia
+S,EUR,SK,2016-S1,405,,Euro,Slovakia
+S,EUR,SK,2016-S2,405,,Euro,Slovakia
+S,EUR,SK,2017-S1,435,,Euro,Slovakia
+S,EUR,SK,2017-S2,435,,Euro,Slovakia
+S,EUR,SK,2018-S1,480,,Euro,Slovakia
+S,EUR,SK,2018-S2,480,,Euro,Slovakia
+S,EUR,SK,2019-S1,520,,Euro,Slovakia
+S,EUR,SK,2019-S2,520,,Euro,Slovakia
+S,EUR,SK,2020-S1,580,,Euro,Slovakia
+S,EUR,SK,2020-S2,580,,Euro,Slovakia
+S,EUR,SK,2021-S1,623,,Euro,Slovakia
+S,EUR,SK,2021-S2,623,,Euro,Slovakia
+S,EUR,SK,2022-S1,646,,Euro,Slovakia
+S,EUR,SK,2022-S2,646,,Euro,Slovakia
+S,EUR,SK,2023-S1,700,,Euro,Slovakia
+S,EUR,SK,2023-S2,700,,Euro,Slovakia
+S,EUR,SK,2024-S1,750,,Euro,Slovakia
+S,EUR,SK,2024-S2,750,,Euro,Slovakia
+S,EUR,SK,2025-S1,816,,Euro,Slovakia
+S,EUR,SK,2025-S2,816,,Euro,Slovakia
+S,EUR,SK,2026-S1,915,,Euro,Slovakia
+S,EUR,SK,2026-S2,915,,Euro,Slovakia
+S,PPS,BG,2015-S1,370,,Purchasing Power Standard,Bulgaria
+S,PPS,BG,2015-S2,390,,Purchasing Power Standard,Bulgaria
+S,PPS,BG,2016-S1,433,,Purchasing Power Standard,Bulgaria
+S,PPS,BG,2016-S2,433,,Purchasing Power Standard,Bulgaria
+S,PPS,BG,2017-S1,459,,Purchasing Power Standard,Bulgaria
+S,PPS,BG,2017-S2,459,,Purchasing Power Standard,Bulgaria
+S,PPS,BG,2018-S1,503,,Purchasing Power Standard,Bulgaria
+S,PPS,BG,2018-S2,503,,Purchasing Power Standard,Bulgaria
+S,PPS,BG,2019-S1,534,,Purchasing Power Standard,Bulgaria
+S,PPS,BG,2019-S2,534,,Purchasing Power Standard,Bulgaria
+S,PPS,BG,2020-S1,565,,Purchasing Power Standard,Bulgaria
+S,PPS,BG,2020-S2,565,,Purchasing Power Standard,Bulgaria
+S,PPS,BG,2021-S1,598,,Purchasing Power Standard,Bulgaria
+S,PPS,BG,2021-S2,598,,Purchasing Power Standard,Bulgaria
+S,PPS,BG,2022-S1,570,,Purchasing Power Standard,Bulgaria
+S,PPS,BG,2022-S2,624,,Purchasing Power Standard,Bulgaria
+S,PPS,BG,2023-S1,675,,Purchasing Power Standard,Bulgaria
+S,PPS,BG,2023-S2,675,,Purchasing Power Standard,Bulgaria
+S,PPS,BG,2024-S1,789,,Purchasing Power Standard,Bulgaria
+S,PPS,BG,2024-S2,789,,Purchasing Power Standard,Bulgaria
+S,PPS,BG,2025-S1,882,,Purchasing Power Standard,Bulgaria
+S,PPS,BG,2025-S2,882,,Purchasing Power Standard,Bulgaria
+S,PPS,BG,2026-S1,993,e,Purchasing Power Standard,Bulgaria
+S,PPS,BG,2026-S2,993,e,Purchasing Power Standard,Bulgaria
+S,PPS,CZ,2015-S1,505,,Purchasing Power Standard,Czechia
+S,PPS,CZ,2015-S2,505,,Purchasing Power Standard,Czechia
+S,PPS,CZ,2016-S1,536,,Purchasing Power Standard,Czechia
+S,PPS,CZ,2016-S2,536,,Purchasing Power Standard,Czechia
+S,PPS,CZ,2017-S1,593,,Purchasing Power Standard,Czechia
+S,PPS,CZ,2017-S2,593,,Purchasing Power Standard,Czechia
+S,PPS,CZ,2018-S1,643,,Purchasing Power Standard,Czechia
+S,PPS,CZ,2018-S2,643,,Purchasing Power Standard,Czechia
+S,PPS,CZ,2019-S1,693,,Purchasing Power Standard,Czechia
+S,PPS,CZ,2019-S2,693,,Purchasing Power Standard,Czechia
+S,PPS,CZ,2020-S1,723,,Purchasing Power Standard,Czechia
+S,PPS,CZ,2020-S2,723,,Purchasing Power Standard,Czechia
+S,PPS,CZ,2021-S1,711,,Purchasing Power Standard,Czechia
+S,PPS,CZ,2021-S2,711,,Purchasing Power Standard,Czechia
+S,PPS,CZ,2022-S1,736,,Purchasing Power Standard,Czechia
+S,PPS,CZ,2022-S2,736,,Purchasing Power Standard,Czechia
+S,PPS,CZ,2023-S1,786,,Purchasing Power Standard,Czechia
+S,PPS,CZ,2023-S2,786,,Purchasing Power Standard,Czechia
+S,PPS,CZ,2024-S1,851,,Purchasing Power Standard,Czechia
+S,PPS,CZ,2024-S2,851,,Purchasing Power Standard,Czechia
+S,PPS,CZ,2025-S1,942,,Purchasing Power Standard,Czechia
+S,PPS,CZ,2025-S2,942,,Purchasing Power Standard,Czechia
+S,PPS,CZ,2026-S1,1015,e,Purchasing Power Standard,Czechia
+S,PPS,CZ,2026-S2,1015,e,Purchasing Power Standard,Czechia
+S,PPS,HR,2015-S1,587,,Purchasing Power Standard,Croatia
+S,PPS,HR,2015-S2,587,,Purchasing Power Standard,Croatia
+S,PPS,HR,2016-S1,604,,Purchasing Power Standard,Croatia
+S,PPS,HR,2016-S2,604,,Purchasing Power Standard,Croatia
+S,PPS,HR,2017-S1,634,,Purchasing Power Standard,Croatia
+S,PPS,HR,2017-S2,634,,Purchasing Power Standard,Croatia
+S,PPS,HR,2018-S1,657,,Purchasing Power Standard,Croatia
+S,PPS,HR,2018-S2,657,,Purchasing Power Standard,Croatia
+S,PPS,HR,2019-S1,709,,Purchasing Power Standard,Croatia
+S,PPS,HR,2019-S2,709,,Purchasing Power Standard,Croatia
+S,PPS,HR,2020-S1,762,,Purchasing Power Standard,Croatia
+S,PPS,HR,2020-S2,762,,Purchasing Power Standard,Croatia
+S,PPS,HR,2021-S1,813,,Purchasing Power Standard,Croatia
+S,PPS,HR,2021-S2,813,,Purchasing Power Standard,Croatia
+S,PPS,HR,2022-S1,851,,Purchasing Power Standard,Croatia
+S,PPS,HR,2022-S2,851,,Purchasing Power Standard,Croatia
+S,PPS,HR,2023-S1,935,,Purchasing Power Standard,Croatia
+S,PPS,HR,2023-S2,935,,Purchasing Power Standard,Croatia
+S,PPS,HR,2024-S1,1096,,Purchasing Power Standard,Croatia
+S,PPS,HR,2024-S2,1096,,Purchasing Power Standard,Croatia
+S,PPS,HR,2025-S1,1237,,Purchasing Power Standard,Croatia
+S,PPS,HR,2025-S2,1237,,Purchasing Power Standard,Croatia
+S,PPS,HR,2026-S1,1339,e,Purchasing Power Standard,Croatia
+S,PPS,HR,2026-S2,1339,e,Purchasing Power Standard,Croatia
+S,PPS,HU,2015-S1,552,,Purchasing Power Standard,Hungary
+S,PPS,HU,2015-S2,552,,Purchasing Power Standard,Hungary
+S,PPS,HU,2016-S1,571,,Purchasing Power Standard,Hungary
+S,PPS,HU,2016-S2,571,,Purchasing Power Standard,Hungary
+S,PPS,HU,2017-S1,626,,Purchasing Power Standard,Hungary
+S,PPS,HU,2017-S2,626,,Purchasing Power Standard,Hungary
+S,PPS,HU,2018-S1,656,,Purchasing Power Standard,Hungary
+S,PPS,HU,2018-S2,656,,Purchasing Power Standard,Hungary
+S,PPS,HU,2019-S1,680,,Purchasing Power Standard,Hungary
+S,PPS,HU,2019-S2,680,,Purchasing Power Standard,Hungary
+S,PPS,HU,2020-S1,692,,Purchasing Power Standard,Hungary
+S,PPS,HU,2020-S2,692,,Purchasing Power Standard,Hungary
+S,PPS,HU,2021-S1,659,,Purchasing Power Standard,Hungary
+S,PPS,HU,2021-S2,685,,Purchasing Power Standard,Hungary
+S,PPS,HU,2022-S1,754,,Purchasing Power Standard,Hungary
+S,PPS,HU,2022-S2,754,,Purchasing Power Standard,Hungary
+S,PPS,HU,2023-S1,819,,Purchasing Power Standard,Hungary
+S,PPS,HU,2023-S2,819,,Purchasing Power Standard,Hungary
+S,PPS,HU,2024-S1,909,,Purchasing Power Standard,Hungary
+S,PPS,HU,2024-S2,909,,Purchasing Power Standard,Hungary
+S,PPS,HU,2025-S1,944,,Purchasing Power Standard,Hungary
+S,PPS,HU,2025-S2,944,,Purchasing Power Standard,Hungary
+S,PPS,HU,2026-S1,1048,e,Purchasing Power Standard,Hungary
+S,PPS,HU,2026-S2,1048,e,Purchasing Power Standard,Hungary
+S,PPS,PL,2015-S1,726,,Purchasing Power Standard,Poland
+S,PPS,PL,2015-S2,726,,Purchasing Power Standard,Poland
+S,PPS,PL,2016-S1,758,,Purchasing Power Standard,Poland
+S,PPS,PL,2016-S2,758,,Purchasing Power Standard,Poland
+S,PPS,PL,2017-S1,799,,Purchasing Power Standard,Poland
+S,PPS,PL,2017-S2,799,,Purchasing Power Standard,Poland
+S,PPS,PL,2018-S1,826,,Purchasing Power Standard,Poland
+S,PPS,PL,2018-S2,826,,Purchasing Power Standard,Poland
+S,PPS,PL,2019-S1,875,,Purchasing Power Standard,Poland
+S,PPS,PL,2019-S2,875,,Purchasing Power Standard,Poland
+S,PPS,PL,2020-S1,991,,Purchasing Power Standard,Poland
+S,PPS,PL,2020-S2,991,,Purchasing Power Standard,Poland
+S,PPS,PL,2021-S1,1014,,Purchasing Power Standard,Poland
+S,PPS,PL,2021-S2,1014,,Purchasing Power Standard,Poland
+S,PPS,PL,2022-S1,1036,,Purchasing Power Standard,Poland
+S,PPS,PL,2022-S2,1036,,Purchasing Power Standard,Poland
+S,PPS,PL,2023-S1,1127,,Purchasing Power Standard,Poland
+S,PPS,PL,2023-S2,1163,,Purchasing Power Standard,Poland
+S,PPS,PL,2024-S1,1362,,Purchasing Power Standard,Poland
+S,PPS,PL,2024-S2,1381,,Purchasing Power Standard,Poland
+S,PPS,PL,2025-S1,1502,,Purchasing Power Standard,Poland
+S,PPS,PL,2025-S2,1502,,Purchasing Power Standard,Poland
+S,PPS,PL,2026-S1,1547,e,Purchasing Power Standard,Poland
+S,PPS,PL,2026-S2,1547,e,Purchasing Power Standard,Poland
+S,PPS,RO,2015-S1,398,,Purchasing Power Standard,Romania
+S,PPS,RO,2015-S2,428,,Purchasing Power Standard,Romania
+S,PPS,RO,2016-S1,435,,Purchasing Power Standard,Romania
+S,PPS,RO,2016-S2,518,,Purchasing Power Standard,Romania
+S,PPS,RO,2017-S1,500,,Purchasing Power Standard,Romania
+S,PPS,RO,2017-S2,580,,Purchasing Power Standard,Romania
+S,PPS,RO,2018-S1,733,,Purchasing Power Standard,Romania
+S,PPS,RO,2018-S2,733,,Purchasing Power Standard,Romania
+S,PPS,RO,2019-S1,790,,Purchasing Power Standard,Romania
+S,PPS,RO,2019-S2,790,,Purchasing Power Standard,Romania
+S,PPS,RO,2020-S1,832,,Purchasing Power Standard,Romania
+S,PPS,RO,2020-S2,832,,Purchasing Power Standard,Romania
+S,PPS,RO,2021-S1,809,,Purchasing Power Standard,Romania
+S,PPS,RO,2021-S2,835,,Purchasing Power Standard,Romania
+S,PPS,RO,2022-S1,850,,Purchasing Power Standard,Romania
+S,PPS,RO,2022-S2,850,,Purchasing Power Standard,Romania
+S,PPS,RO,2023-S1,982,,Purchasing Power Standard,Romania
+S,PPS,RO,2023-S2,982,,Purchasing Power Standard,Romania
+S,PPS,RO,2024-S1,1035,,Purchasing Power Standard,Romania
+S,PPS,RO,2024-S2,1160,,Purchasing Power Standard,Romania
+S,PPS,RO,2025-S1,1233,,Purchasing Power Standard,Romania
+S,PPS,RO,2025-S2,1233,,Purchasing Power Standard,Romania
+S,PPS,RO,2026-S1,1233,e,Purchasing Power Standard,Romania
+S,PPS,RO,2026-S2,1317,e,Purchasing Power Standard,Romania
+S,PPS,SK,2015-S1,538,,Purchasing Power Standard,Slovakia
+S,PPS,SK,2015-S2,538,,Purchasing Power Standard,Slovakia
+S,PPS,SK,2016-S1,520,,Purchasing Power Standard,Slovakia
+S,PPS,SK,2016-S2,520,,Purchasing Power Standard,Slovakia
+S,PPS,SK,2017-S1,528,,Purchasing Power Standard,Slovakia
+S,PPS,SK,2017-S2,528,,Purchasing Power Standard,Slovakia
+S,PPS,SK,2018-S1,568,,Purchasing Power Standard,Slovakia
+S,PPS,SK,2018-S2,568,,Purchasing Power Standard,Slovakia
+S,PPS,SK,2019-S1,605,,Purchasing Power Standard,Slovakia
+S,PPS,SK,2019-S2,605,,Purchasing Power Standard,Slovakia
+S,PPS,SK,2020-S1,697,,Purchasing Power Standard,Slovakia
+S,PPS,SK,2020-S2,697,,Purchasing Power Standard,Slovakia
+S,PPS,SK,2021-S1,756,,Purchasing Power Standard,Slovakia
+S,PPS,SK,2021-S2,756,,Purchasing Power Standard,Slovakia
+S,PPS,SK,2022-S1,752,,Purchasing Power Standard,Slovakia
+S,PPS,SK,2022-S2,752,,Purchasing Power Standard,Slovakia
+S,PPS,SK,2023-S1,833,,Purchasing Power Standard,Slovakia
+S,PPS,SK,2023-S2,833,,Purchasing Power Standard,Slovakia
+S,PPS,SK,2024-S1,887,,Purchasing Power Standard,Slovakia
+S,PPS,SK,2024-S2,887,,Purchasing Power Standard,Slovakia
+S,PPS,SK,2025-S1,958,,Purchasing Power Standard,Slovakia
+S,PPS,SK,2025-S2,958,,Purchasing Power Standard,Slovakia
+S,PPS,SK,2026-S1,1074,e,Purchasing Power Standard,Slovakia
+S,PPS,SK,2026-S2,1074,e,Purchasing Power Standard,Slovakia
+S,NAC,BG,2015-S1,184,,National currency,Bulgaria
+S,NAC,BG,2015-S2,194,,National currency,Bulgaria
+S,NAC,BG,2016-S1,215,,National currency,Bulgaria
+S,NAC,BG,2016-S2,215,,National currency,Bulgaria
+S,NAC,BG,2017-S1,235,,National currency,Bulgaria
+S,NAC,BG,2017-S2,235,,National currency,Bulgaria
+S,NAC,BG,2018-S1,261,,National currency,Bulgaria
+S,NAC,BG,2018-S2,261,,National currency,Bulgaria
+S,NAC,BG,2019-S1,286,,National currency,Bulgaria
+S,NAC,BG,2019-S2,286,,National currency,Bulgaria
+S,NAC,BG,2020-S1,312,,National currency,Bulgaria
+S,NAC,BG,2020-S2,312,,National currency,Bulgaria
+S,NAC,BG,2021-S1,332,,National currency,Bulgaria
+S,NAC,BG,2021-S2,332,,National currency,Bulgaria
+S,NAC,BG,2022-S1,332,,National currency,Bulgaria
+S,NAC,BG,2022-S2,363,,National currency,Bulgaria
+S,NAC,BG,2023-S1,399,,National currency,Bulgaria
+S,NAC,BG,2023-S2,399,,National currency,Bulgaria
+S,NAC,BG,2024-S1,477,,National currency,Bulgaria
+S,NAC,BG,2024-S2,477,,National currency,Bulgaria
+S,NAC,BG,2025-S1,551,,National currency,Bulgaria
+S,NAC,BG,2025-S2,551,,National currency,Bulgaria
+S,NAC,BG,2026-S1,620,,National currency,Bulgaria
+S,NAC,BG,2026-S2,620,,National currency,Bulgaria
+S,NAC,CZ,2015-S1,9200,,National currency,Czechia
+S,NAC,CZ,2015-S2,9200,,National currency,Czechia
+S,NAC,CZ,2016-S1,9900,,National currency,Czechia
+S,NAC,CZ,2016-S2,9900,,National currency,Czechia
+S,NAC,CZ,2017-S1,11000,,National currency,Czechia
+S,NAC,CZ,2017-S2,11000,,National currency,Czechia
+S,NAC,CZ,2018-S1,12200,,National currency,Czechia
+S,NAC,CZ,2018-S2,12200,,National currency,Czechia
+S,NAC,CZ,2019-S1,13350,,National currency,Czechia
+S,NAC,CZ,2019-S2,13350,,National currency,Czechia
+S,NAC,CZ,2020-S1,14600,,National currency,Czechia
+S,NAC,CZ,2020-S2,14600,,National currency,Czechia
+S,NAC,CZ,2021-S1,15200,,National currency,Czechia
+S,NAC,CZ,2021-S2,15200,,National currency,Czechia
+S,NAC,CZ,2022-S1,16200,,National currency,Czechia
+S,NAC,CZ,2022-S2,16200,,National currency,Czechia
+S,NAC,CZ,2023-S1,17300,,National currency,Czechia
+S,NAC,CZ,2023-S2,17300,,National currency,Czechia
+S,NAC,CZ,2024-S1,18900,,National currency,Czechia
+S,NAC,CZ,2024-S2,18900,,National currency,Czechia
+S,NAC,CZ,2025-S1,20800,,National currency,Czechia
+S,NAC,CZ,2025-S2,20800,,National currency,Czechia
+S,NAC,CZ,2026-S1,22400,,National currency,Czechia
+S,NAC,CZ,2026-S2,22400,,National currency,Czechia
+S,NAC,HR,2015-S1,402,,National currency,Croatia
+S,NAC,HR,2015-S2,402,,National currency,Croatia
+S,NAC,HR,2016-S1,414,,National currency,Croatia
+S,NAC,HR,2016-S2,414,,National currency,Croatia
+S,NAC,HR,2017-S1,435,,National currency,Croatia
+S,NAC,HR,2017-S2,435,,National currency,Croatia
+S,NAC,HR,2018-S1,457,,National currency,Croatia
+S,NAC,HR,2018-S2,457,,National currency,Croatia
+S,NAC,HR,2019-S1,498,,National currency,Croatia
+S,NAC,HR,2019-S2,498,,National currency,Croatia
+S,NAC,HR,2020-S1,539,,National currency,Croatia
+S,NAC,HR,2020-S2,539,,National currency,Croatia
+S,NAC,HR,2021-S1,564,,National currency,Croatia
+S,NAC,HR,2021-S2,564,,National currency,Croatia
+S,NAC,HR,2022-S1,622,,National currency,Croatia
+S,NAC,HR,2022-S2,622,,National currency,Croatia
+S,NAC,HR,2023-S1,700,,National currency,Croatia
+S,NAC,HR,2023-S2,700,,National currency,Croatia
+S,NAC,HR,2024-S1,840,,National currency,Croatia
+S,NAC,HR,2024-S2,840,,National currency,Croatia
+S,NAC,HR,2025-S1,970,,National currency,Croatia
+S,NAC,HR,2025-S2,970,,National currency,Croatia
+S,NAC,HR,2026-S1,1050,,National currency,Croatia
+S,NAC,HR,2026-S2,1050,,National currency,Croatia
+S,NAC,HU,2015-S1,105000,,National currency,Hungary
+S,NAC,HU,2015-S2,105000,,National currency,Hungary
+S,NAC,HU,2016-S1,111000,,National currency,Hungary
+S,NAC,HU,2016-S2,111000,,National currency,Hungary
+S,NAC,HU,2017-S1,127500,,National currency,Hungary
+S,NAC,HU,2017-S2,127500,,National currency,Hungary
+S,NAC,HU,2018-S1,138000,,National currency,Hungary
+S,NAC,HU,2018-S2,138000,,National currency,Hungary
+S,NAC,HU,2019-S1,149000,,National currency,Hungary
+S,NAC,HU,2019-S2,149000,,National currency,Hungary
+S,NAC,HU,2020-S1,161000,,National currency,Hungary
+S,NAC,HU,2020-S2,161000,,National currency,Hungary
+S,NAC,HU,2021-S1,161000,,National currency,Hungary
+S,NAC,HU,2021-S2,167400,,National currency,Hungary
+S,NAC,HU,2022-S1,200000,,National currency,Hungary
+S,NAC,HU,2022-S2,200000,,National currency,Hungary
+S,NAC,HU,2023-S1,232000,,National currency,Hungary
+S,NAC,HU,2023-S2,232000,,National currency,Hungary
+S,NAC,HU,2024-S1,266800,,National currency,Hungary
+S,NAC,HU,2024-S2,266800,,National currency,Hungary
+S,NAC,HU,2025-S1,290800,,National currency,Hungary
+S,NAC,HU,2025-S2,290800,,National currency,Hungary
+S,NAC,HU,2026-S1,322800,,National currency,Hungary
+S,NAC,HU,2026-S2,322800,,National currency,Hungary
+S,NAC,PL,2015-S1,1750,,National currency,Poland
+S,NAC,PL,2015-S2,1750,,National currency,Poland
+S,NAC,PL,2016-S1,1850,,National currency,Poland
+S,NAC,PL,2016-S2,1850,,National currency,Poland
+S,NAC,PL,2017-S1,2000,,National currency,Poland
+S,NAC,PL,2017-S2,2000,,National currency,Poland
+S,NAC,PL,2018-S1,2100,,National currency,Poland
+S,NAC,PL,2018-S2,2100,,National currency,Poland
+S,NAC,PL,2019-S1,2250,,National currency,Poland
+S,NAC,PL,2019-S2,2250,,National currency,Poland
+S,NAC,PL,2020-S1,2600,,National currency,Poland
+S,NAC,PL,2020-S2,2600,,National currency,Poland
+S,NAC,PL,2021-S1,2800,,National currency,Poland
+S,NAC,PL,2021-S2,2800,,National currency,Poland
+S,NAC,PL,2022-S1,3010,,National currency,Poland
+S,NAC,PL,2022-S2,3010,,National currency,Poland
+S,NAC,PL,2023-S1,3490,,National currency,Poland
+S,NAC,PL,2023-S2,3600,,National currency,Poland
+S,NAC,PL,2024-S1,4242,,National currency,Poland
+S,NAC,PL,2024-S2,4300,,National currency,Poland
+S,NAC,PL,2025-S1,4666,,National currency,Poland
+S,NAC,PL,2025-S2,4666,,National currency,Poland
+S,NAC,PL,2026-S1,4806,,National currency,Poland
+S,NAC,PL,2026-S2,4806,,National currency,Poland
+S,NAC,RO,2015-S1,975,,National currency,Romania
+S,NAC,RO,2015-S2,1050,,National currency,Romania
+S,NAC,RO,2016-S1,1050,,National currency,Romania
+S,NAC,RO,2016-S2,1250,,National currency,Romania
+S,NAC,RO,2017-S1,1250,,National currency,Romania
+S,NAC,RO,2017-S2,1450,,National currency,Romania
+S,NAC,RO,2018-S1,1900,,National currency,Romania
+S,NAC,RO,2018-S2,1900,,National currency,Romania
+S,NAC,RO,2019-S1,2080,,National currency,Romania
+S,NAC,RO,2019-S2,2080,,National currency,Romania
+S,NAC,RO,2020-S1,2230,,National currency,Romania
+S,NAC,RO,2020-S2,2230,,National currency,Romania
+S,NAC,RO,2021-S1,2230,,National currency,Romania
+S,NAC,RO,2021-S2,2300,,National currency,Romania
+S,NAC,RO,2022-S1,2550,,National currency,Romania
+S,NAC,RO,2022-S2,2550,,National currency,Romania
+S,NAC,RO,2023-S1,3000,,National currency,Romania
+S,NAC,RO,2023-S2,3000,,National currency,Romania
+S,NAC,RO,2024-S1,3300,,National currency,Romania
+S,NAC,RO,2024-S2,3700,,National currency,Romania
+S,NAC,RO,2025-S1,4050,,National currency,Romania
+S,NAC,RO,2025-S2,4050,,National currency,Romania
+S,NAC,RO,2026-S1,4050,,National currency,Romania
+S,NAC,RO,2026-S2,4325,,National currency,Romania
+S,NAC,SK,2015-S1,380,,National currency,Slovakia
+S,NAC,SK,2015-S2,380,,National currency,Slovakia
+S,NAC,SK,2016-S1,405,,National currency,Slovakia
+S,NAC,SK,2016-S2,405,,National currency,Slovakia
+S,NAC,SK,2017-S1,435,,National currency,Slovakia
+S,NAC,SK,2017-S2,435,,National currency,Slovakia
+S,NAC,SK,2018-S1,480,,National currency,Slovakia
+S,NAC,SK,2018-S2,480,,National currency,Slovakia
+S,NAC,SK,2019-S1,520,,National currency,Slovakia
+S,NAC,SK,2019-S2,520,,National currency,Slovakia
+S,NAC,SK,2020-S1,580,,National currency,Slovakia
+S,NAC,SK,2020-S2,580,,National currency,Slovakia
+S,NAC,SK,2021-S1,623,,National currency,Slovakia
+S,NAC,SK,2021-S2,623,,National currency,Slovakia
+S,NAC,SK,2022-S1,646,,National currency,Slovakia
+S,NAC,SK,2022-S2,646,,National currency,Slovakia
+S,NAC,SK,2023-S1,700,,National currency,Slovakia
+S,NAC,SK,2023-S2,700,,National currency,Slovakia
+S,NAC,SK,2024-S1,750,,National currency,Slovakia
+S,NAC,SK,2024-S2,750,,National currency,Slovakia
+S,NAC,SK,2025-S1,816,,National currency,Slovakia
+S,NAC,SK,2025-S2,816,,National currency,Slovakia
+S,NAC,SK,2026-S1,915,,National currency,Slovakia
+S,NAC,SK,2026-S2,915,,National currency,Slovakia

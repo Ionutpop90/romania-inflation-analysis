@@ -1,0 +1,309 @@
+freq,unit,coicop18,geo,time,value,flag,unit_label,coicop18_label,geo_label
+A,RCH_A_AVG,TOTAL,EU27_2020,2015,0.1,,Annual average rate of change,Total,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,TOTAL,EU27_2020,2016,0.2,,Annual average rate of change,Total,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,TOTAL,EU27_2020,2017,1.6,,Annual average rate of change,Total,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,TOTAL,EU27_2020,2018,1.8,,Annual average rate of change,Total,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,TOTAL,EU27_2020,2019,1.4,,Annual average rate of change,Total,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,TOTAL,EU27_2020,2020,0.7,,Annual average rate of change,Total,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,TOTAL,EU27_2020,2021,2.9,,Annual average rate of change,Total,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,TOTAL,EU27_2020,2022,9.2,,Annual average rate of change,Total,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,TOTAL,EU27_2020,2023,6.4,,Annual average rate of change,Total,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,TOTAL,EU27_2020,2024,2.6,,Annual average rate of change,Total,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,TOTAL,EU27_2020,2025,2.5,,Annual average rate of change,Total,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,TOTAL,RO,2015,-0.4,,Annual average rate of change,Total,Romania
+A,RCH_A_AVG,TOTAL,RO,2016,-1.1,,Annual average rate of change,Total,Romania
+A,RCH_A_AVG,TOTAL,RO,2017,1.1,,Annual average rate of change,Total,Romania
+A,RCH_A_AVG,TOTAL,RO,2018,4.1,,Annual average rate of change,Total,Romania
+A,RCH_A_AVG,TOTAL,RO,2019,3.9,,Annual average rate of change,Total,Romania
+A,RCH_A_AVG,TOTAL,RO,2020,2.3,,Annual average rate of change,Total,Romania
+A,RCH_A_AVG,TOTAL,RO,2021,4.1,,Annual average rate of change,Total,Romania
+A,RCH_A_AVG,TOTAL,RO,2022,12.0,,Annual average rate of change,Total,Romania
+A,RCH_A_AVG,TOTAL,RO,2023,9.7,,Annual average rate of change,Total,Romania
+A,RCH_A_AVG,TOTAL,RO,2024,5.8,,Annual average rate of change,Total,Romania
+A,RCH_A_AVG,TOTAL,RO,2025,6.8,,Annual average rate of change,Total,Romania
+A,RCH_A_AVG,CP01,EU27_2020,2015,0.3,,Annual average rate of change,Food and non-alcoholic beverages,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP01,EU27_2020,2016,0.5,,Annual average rate of change,Food and non-alcoholic beverages,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP01,EU27_2020,2017,2.1,,Annual average rate of change,Food and non-alcoholic beverages,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP01,EU27_2020,2018,1.9,,Annual average rate of change,Food and non-alcoholic beverages,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP01,EU27_2020,2019,2.1,,Annual average rate of change,Food and non-alcoholic beverages,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP01,EU27_2020,2020,2.5,,Annual average rate of change,Food and non-alcoholic beverages,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP01,EU27_2020,2021,1.6,,Annual average rate of change,Food and non-alcoholic beverages,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP01,EU27_2020,2022,11.9,,Annual average rate of change,Food and non-alcoholic beverages,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP01,EU27_2020,2023,12.6,,Annual average rate of change,Food and non-alcoholic beverages,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP01,EU27_2020,2024,2.3,,Annual average rate of change,Food and non-alcoholic beverages,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP01,EU27_2020,2025,3.2,,Annual average rate of change,Food and non-alcoholic beverages,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP01,RO,2015,-3.5,,Annual average rate of change,Food and non-alcoholic beverages,Romania
+A,RCH_A_AVG,CP01,RO,2016,-2.4,,Annual average rate of change,Food and non-alcoholic beverages,Romania
+A,RCH_A_AVG,CP01,RO,2017,2.6,,Annual average rate of change,Food and non-alcoholic beverages,Romania
+A,RCH_A_AVG,CP01,RO,2018,4.0,,Annual average rate of change,Food and non-alcoholic beverages,Romania
+A,RCH_A_AVG,CP01,RO,2019,5.6,,Annual average rate of change,Food and non-alcoholic beverages,Romania
+A,RCH_A_AVG,CP01,RO,2020,4.8,,Annual average rate of change,Food and non-alcoholic beverages,Romania
+A,RCH_A_AVG,CP01,RO,2021,2.8,,Annual average rate of change,Food and non-alcoholic beverages,Romania
+A,RCH_A_AVG,CP01,RO,2022,16.4,,Annual average rate of change,Food and non-alcoholic beverages,Romania
+A,RCH_A_AVG,CP01,RO,2023,14.6,,Annual average rate of change,Food and non-alcoholic beverages,Romania
+A,RCH_A_AVG,CP01,RO,2024,2.9,,Annual average rate of change,Food and non-alcoholic beverages,Romania
+A,RCH_A_AVG,CP01,RO,2025,6.8,,Annual average rate of change,Food and non-alcoholic beverages,Romania
+A,RCH_A_AVG,CP02,EU27_2020,2015,2.2,,Annual average rate of change,"Alcoholic beverages, tobacco and narcotics",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP02,EU27_2020,2016,1.7,,Annual average rate of change,"Alcoholic beverages, tobacco and narcotics",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP02,EU27_2020,2017,2.1,,Annual average rate of change,"Alcoholic beverages, tobacco and narcotics",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP02,EU27_2020,2018,3.8,,Annual average rate of change,"Alcoholic beverages, tobacco and narcotics",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP02,EU27_2020,2019,3.1,,Annual average rate of change,"Alcoholic beverages, tobacco and narcotics",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP02,EU27_2020,2020,3.9,,Annual average rate of change,"Alcoholic beverages, tobacco and narcotics",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP02,EU27_2020,2021,3.1,,Annual average rate of change,"Alcoholic beverages, tobacco and narcotics",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP02,EU27_2020,2022,4.3,,Annual average rate of change,"Alcoholic beverages, tobacco and narcotics",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP02,EU27_2020,2023,7.8,,Annual average rate of change,"Alcoholic beverages, tobacco and narcotics",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP02,EU27_2020,2024,5.6,,Annual average rate of change,"Alcoholic beverages, tobacco and narcotics",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP02,EU27_2020,2025,4.3,,Annual average rate of change,"Alcoholic beverages, tobacco and narcotics",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP02,RO,2015,3.0,,Annual average rate of change,"Alcoholic beverages, tobacco and narcotics",Romania
+A,RCH_A_AVG,CP02,RO,2016,2.5,,Annual average rate of change,"Alcoholic beverages, tobacco and narcotics",Romania
+A,RCH_A_AVG,CP02,RO,2017,2.2,,Annual average rate of change,"Alcoholic beverages, tobacco and narcotics",Romania
+A,RCH_A_AVG,CP02,RO,2018,4.9,,Annual average rate of change,"Alcoholic beverages, tobacco and narcotics",Romania
+A,RCH_A_AVG,CP02,RO,2019,6.2,,Annual average rate of change,"Alcoholic beverages, tobacco and narcotics",Romania
+A,RCH_A_AVG,CP02,RO,2020,6.4,,Annual average rate of change,"Alcoholic beverages, tobacco and narcotics",Romania
+A,RCH_A_AVG,CP02,RO,2021,5.4,,Annual average rate of change,"Alcoholic beverages, tobacco and narcotics",Romania
+A,RCH_A_AVG,CP02,RO,2022,7.0,,Annual average rate of change,"Alcoholic beverages, tobacco and narcotics",Romania
+A,RCH_A_AVG,CP02,RO,2023,9.7,,Annual average rate of change,"Alcoholic beverages, tobacco and narcotics",Romania
+A,RCH_A_AVG,CP02,RO,2024,9.3,,Annual average rate of change,"Alcoholic beverages, tobacco and narcotics",Romania
+A,RCH_A_AVG,CP02,RO,2025,6.6,,Annual average rate of change,"Alcoholic beverages, tobacco and narcotics",Romania
+A,RCH_A_AVG,CP03,EU27_2020,2015,0.0,,Annual average rate of change,Clothing and footwear,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP03,EU27_2020,2016,0.2,,Annual average rate of change,Clothing and footwear,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP03,EU27_2020,2017,0.2,,Annual average rate of change,Clothing and footwear,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP03,EU27_2020,2018,-0.1,,Annual average rate of change,Clothing and footwear,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP03,EU27_2020,2019,0.5,,Annual average rate of change,Clothing and footwear,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP03,EU27_2020,2020,-0.1,,Annual average rate of change,Clothing and footwear,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP03,EU27_2020,2021,1.0,,Annual average rate of change,Clothing and footwear,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP03,EU27_2020,2022,2.9,,Annual average rate of change,Clothing and footwear,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP03,EU27_2020,2023,4.4,,Annual average rate of change,Clothing and footwear,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP03,EU27_2020,2024,1.6,,Annual average rate of change,Clothing and footwear,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP03,EU27_2020,2025,0.4,,Annual average rate of change,Clothing and footwear,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP03,RO,2015,2.1,,Annual average rate of change,Clothing and footwear,Romania
+A,RCH_A_AVG,CP03,RO,2016,1.3,,Annual average rate of change,Clothing and footwear,Romania
+A,RCH_A_AVG,CP03,RO,2017,2.1,,Annual average rate of change,Clothing and footwear,Romania
+A,RCH_A_AVG,CP03,RO,2018,2.6,,Annual average rate of change,Clothing and footwear,Romania
+A,RCH_A_AVG,CP03,RO,2019,2.9,,Annual average rate of change,Clothing and footwear,Romania
+A,RCH_A_AVG,CP03,RO,2020,2.5,,Annual average rate of change,Clothing and footwear,Romania
+A,RCH_A_AVG,CP03,RO,2021,2.8,,Annual average rate of change,Clothing and footwear,Romania
+A,RCH_A_AVG,CP03,RO,2022,5.8,,Annual average rate of change,Clothing and footwear,Romania
+A,RCH_A_AVG,CP03,RO,2023,10.5,,Annual average rate of change,Clothing and footwear,Romania
+A,RCH_A_AVG,CP03,RO,2024,7.6,,Annual average rate of change,Clothing and footwear,Romania
+A,RCH_A_AVG,CP03,RO,2025,6.1,,Annual average rate of change,Clothing and footwear,Romania
+A,RCH_A_AVG,CP04,EU27_2020,2015,-0.5,,Annual average rate of change,"Housing, water, electricity, gas and other fuels",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP04,EU27_2020,2016,-0.8,,Annual average rate of change,"Housing, water, electricity, gas and other fuels",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP04,EU27_2020,2017,1.8,,Annual average rate of change,"Housing, water, electricity, gas and other fuels",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP04,EU27_2020,2018,2.5,,Annual average rate of change,"Housing, water, electricity, gas and other fuels",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP04,EU27_2020,2019,1.8,,Annual average rate of change,"Housing, water, electricity, gas and other fuels",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP04,EU27_2020,2020,-0.1,,Annual average rate of change,"Housing, water, electricity, gas and other fuels",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP04,EU27_2020,2021,4.8,,Annual average rate of change,"Housing, water, electricity, gas and other fuels",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP04,EU27_2020,2022,17.9,,Annual average rate of change,"Housing, water, electricity, gas and other fuels",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP04,EU27_2020,2023,3.4,,Annual average rate of change,"Housing, water, electricity, gas and other fuels",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP04,EU27_2020,2024,1.8,,Annual average rate of change,"Housing, water, electricity, gas and other fuels",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP04,EU27_2020,2025,2.8,,Annual average rate of change,"Housing, water, electricity, gas and other fuels",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP04,RO,2015,2.6,,Annual average rate of change,"Housing, water, electricity, gas and other fuels",Romania
+A,RCH_A_AVG,CP04,RO,2016,-2.2,,Annual average rate of change,"Housing, water, electricity, gas and other fuels",Romania
+A,RCH_A_AVG,CP04,RO,2017,2.3,,Annual average rate of change,"Housing, water, electricity, gas and other fuels",Romania
+A,RCH_A_AVG,CP04,RO,2018,7.9,,Annual average rate of change,"Housing, water, electricity, gas and other fuels",Romania
+A,RCH_A_AVG,CP04,RO,2019,3.7,,Annual average rate of change,"Housing, water, electricity, gas and other fuels",Romania
+A,RCH_A_AVG,CP04,RO,2020,1.8,,Annual average rate of change,"Housing, water, electricity, gas and other fuels",Romania
+A,RCH_A_AVG,CP04,RO,2021,8.6,,Annual average rate of change,"Housing, water, electricity, gas and other fuels",Romania
+A,RCH_A_AVG,CP04,RO,2022,22.2,,Annual average rate of change,"Housing, water, electricity, gas and other fuels",Romania
+A,RCH_A_AVG,CP04,RO,2023,9.7,,Annual average rate of change,"Housing, water, electricity, gas and other fuels",Romania
+A,RCH_A_AVG,CP04,RO,2024,3.0,,Annual average rate of change,"Housing, water, electricity, gas and other fuels",Romania
+A,RCH_A_AVG,CP04,RO,2025,10.7,,Annual average rate of change,"Housing, water, electricity, gas and other fuels",Romania
+A,RCH_A_AVG,CP05,EU27_2020,2015,0.3,,Annual average rate of change,"Furnishings, household equipment and routine household maintenance",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP05,EU27_2020,2016,0.3,,Annual average rate of change,"Furnishings, household equipment and routine household maintenance",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP05,EU27_2020,2017,0.0,,Annual average rate of change,"Furnishings, household equipment and routine household maintenance",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP05,EU27_2020,2018,0.4,,Annual average rate of change,"Furnishings, household equipment and routine household maintenance",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP05,EU27_2020,2019,0.6,,Annual average rate of change,"Furnishings, household equipment and routine household maintenance",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP05,EU27_2020,2020,0.7,,Annual average rate of change,"Furnishings, household equipment and routine household maintenance",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP05,EU27_2020,2021,1.8,,Annual average rate of change,"Furnishings, household equipment and routine household maintenance",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP05,EU27_2020,2022,7.1,,Annual average rate of change,"Furnishings, household equipment and routine household maintenance",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP05,EU27_2020,2023,6.8,,Annual average rate of change,"Furnishings, household equipment and routine household maintenance",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP05,EU27_2020,2024,0.6,,Annual average rate of change,"Furnishings, household equipment and routine household maintenance",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP05,EU27_2020,2025,0.5,,Annual average rate of change,"Furnishings, household equipment and routine household maintenance",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP05,RO,2015,1.3,,Annual average rate of change,"Furnishings, household equipment and routine household maintenance",Romania
+A,RCH_A_AVG,CP05,RO,2016,-0.3,,Annual average rate of change,"Furnishings, household equipment and routine household maintenance",Romania
+A,RCH_A_AVG,CP05,RO,2017,0.6,,Annual average rate of change,"Furnishings, household equipment and routine household maintenance",Romania
+A,RCH_A_AVG,CP05,RO,2018,1.5,,Annual average rate of change,"Furnishings, household equipment and routine household maintenance",Romania
+A,RCH_A_AVG,CP05,RO,2019,1.9,,Annual average rate of change,"Furnishings, household equipment and routine household maintenance",Romania
+A,RCH_A_AVG,CP05,RO,2020,1.9,,Annual average rate of change,"Furnishings, household equipment and routine household maintenance",Romania
+A,RCH_A_AVG,CP05,RO,2021,2.3,,Annual average rate of change,"Furnishings, household equipment and routine household maintenance",Romania
+A,RCH_A_AVG,CP05,RO,2022,5.2,,Annual average rate of change,"Furnishings, household equipment and routine household maintenance",Romania
+A,RCH_A_AVG,CP05,RO,2023,10.4,,Annual average rate of change,"Furnishings, household equipment and routine household maintenance",Romania
+A,RCH_A_AVG,CP05,RO,2024,8.7,,Annual average rate of change,"Furnishings, household equipment and routine household maintenance",Romania
+A,RCH_A_AVG,CP05,RO,2025,5.7,,Annual average rate of change,"Furnishings, household equipment and routine household maintenance",Romania
+A,RCH_A_AVG,CP06,EU27_2020,2015,1.0,,Annual average rate of change,Health,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP06,EU27_2020,2016,0.9,,Annual average rate of change,Health,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP06,EU27_2020,2017,0.5,,Annual average rate of change,Health,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP06,EU27_2020,2018,1.1,,Annual average rate of change,Health,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP06,EU27_2020,2019,1.4,,Annual average rate of change,Health,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP06,EU27_2020,2020,1.6,,Annual average rate of change,Health,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP06,EU27_2020,2021,1.2,,Annual average rate of change,Health,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP06,EU27_2020,2022,2.1,,Annual average rate of change,Health,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP06,EU27_2020,2023,4.8,,Annual average rate of change,Health,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP06,EU27_2020,2024,4.4,,Annual average rate of change,Health,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP06,EU27_2020,2025,3.8,,Annual average rate of change,Health,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP06,RO,2015,0.9,,Annual average rate of change,Health,Romania
+A,RCH_A_AVG,CP06,RO,2016,-0.2,,Annual average rate of change,Health,Romania
+A,RCH_A_AVG,CP06,RO,2017,0.7,,Annual average rate of change,Health,Romania
+A,RCH_A_AVG,CP06,RO,2018,1.3,,Annual average rate of change,Health,Romania
+A,RCH_A_AVG,CP06,RO,2019,2.6,,Annual average rate of change,Health,Romania
+A,RCH_A_AVG,CP06,RO,2020,2.6,,Annual average rate of change,Health,Romania
+A,RCH_A_AVG,CP06,RO,2021,2.8,,Annual average rate of change,Health,Romania
+A,RCH_A_AVG,CP06,RO,2022,5.4,,Annual average rate of change,Health,Romania
+A,RCH_A_AVG,CP06,RO,2023,8.9,,Annual average rate of change,Health,Romania
+A,RCH_A_AVG,CP06,RO,2024,12.4,,Annual average rate of change,Health,Romania
+A,RCH_A_AVG,CP06,RO,2025,7.2,,Annual average rate of change,Health,Romania
+A,RCH_A_AVG,CP07,EU27_2020,2015,-2.7,,Annual average rate of change,Transport,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP07,EU27_2020,2016,-1.4,,Annual average rate of change,Transport,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP07,EU27_2020,2017,3.0,,Annual average rate of change,Transport,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP07,EU27_2020,2018,3.3,,Annual average rate of change,Transport,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP07,EU27_2020,2019,1.2,,Annual average rate of change,Transport,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP07,EU27_2020,2020,-2.1,,Annual average rate of change,Transport,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP07,EU27_2020,2021,6.7,,Annual average rate of change,Transport,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP07,EU27_2020,2022,12.0,,Annual average rate of change,Transport,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP07,EU27_2020,2023,2.5,,Annual average rate of change,Transport,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP07,EU27_2020,2024,0.9,,Annual average rate of change,Transport,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP07,EU27_2020,2025,0.7,,Annual average rate of change,Transport,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP07,RO,2015,-3.1,,Annual average rate of change,Transport,Romania
+A,RCH_A_AVG,CP07,RO,2016,-2.8,,Annual average rate of change,Transport,Romania
+A,RCH_A_AVG,CP07,RO,2017,0.2,,Annual average rate of change,Transport,Romania
+A,RCH_A_AVG,CP07,RO,2018,6.8,,Annual average rate of change,Transport,Romania
+A,RCH_A_AVG,CP07,RO,2019,2.1,,Annual average rate of change,Transport,Romania
+A,RCH_A_AVG,CP07,RO,2020,-4.8,,Annual average rate of change,Transport,Romania
+A,RCH_A_AVG,CP07,RO,2021,8.3,,Annual average rate of change,Transport,Romania
+A,RCH_A_AVG,CP07,RO,2022,17.6,,Annual average rate of change,Transport,Romania
+A,RCH_A_AVG,CP07,RO,2023,-0.2,,Annual average rate of change,Transport,Romania
+A,RCH_A_AVG,CP07,RO,2024,4.5,,Annual average rate of change,Transport,Romania
+A,RCH_A_AVG,CP07,RO,2025,4.7,,Annual average rate of change,Transport,Romania
+A,RCH_A_AVG,CP08,EU27_2020,2015,-1.3,,Annual average rate of change,Information and communication,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP08,EU27_2020,2016,-1.1,,Annual average rate of change,Information and communication,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP08,EU27_2020,2017,-1.7,,Annual average rate of change,Information and communication,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP08,EU27_2020,2018,-1.5,,Annual average rate of change,Information and communication,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP08,EU27_2020,2019,-2.3,,Annual average rate of change,Information and communication,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP08,EU27_2020,2020,-1.4,,Annual average rate of change,Information and communication,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP08,EU27_2020,2021,0.1,,Annual average rate of change,Information and communication,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP08,EU27_2020,2022,-0.2,,Annual average rate of change,Information and communication,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP08,EU27_2020,2023,0.9,,Annual average rate of change,Information and communication,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP08,EU27_2020,2024,-1.6,,Annual average rate of change,Information and communication,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP08,EU27_2020,2025,-1.7,,Annual average rate of change,Information and communication,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP08,RO,2015,0.6,,Annual average rate of change,Information and communication,Romania
+A,RCH_A_AVG,CP08,RO,2016,-1.4,,Annual average rate of change,Information and communication,Romania
+A,RCH_A_AVG,CP08,RO,2017,-4.4,,Annual average rate of change,Information and communication,Romania
+A,RCH_A_AVG,CP08,RO,2018,0.8,,Annual average rate of change,Information and communication,Romania
+A,RCH_A_AVG,CP08,RO,2019,3.6,,Annual average rate of change,Information and communication,Romania
+A,RCH_A_AVG,CP08,RO,2020,1.6,,Annual average rate of change,Information and communication,Romania
+A,RCH_A_AVG,CP08,RO,2021,1.4,,Annual average rate of change,Information and communication,Romania
+A,RCH_A_AVG,CP08,RO,2022,1.0,,Annual average rate of change,Information and communication,Romania
+A,RCH_A_AVG,CP08,RO,2023,2.8,,Annual average rate of change,Information and communication,Romania
+A,RCH_A_AVG,CP08,RO,2024,2.8,,Annual average rate of change,Information and communication,Romania
+A,RCH_A_AVG,CP08,RO,2025,0.5,,Annual average rate of change,Information and communication,Romania
+A,RCH_A_AVG,CP09,EU27_2020,2015,2.8,,Annual average rate of change,"Recreation, sport and culture",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP09,EU27_2020,2016,0.9,,Annual average rate of change,"Recreation, sport and culture",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP09,EU27_2020,2017,1.7,,Annual average rate of change,"Recreation, sport and culture",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP09,EU27_2020,2018,1.7,,Annual average rate of change,"Recreation, sport and culture",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP09,EU27_2020,2019,1.4,,Annual average rate of change,"Recreation, sport and culture",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP09,EU27_2020,2020,0.9,,Annual average rate of change,"Recreation, sport and culture",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP09,EU27_2020,2021,1.8,,Annual average rate of change,"Recreation, sport and culture",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP09,EU27_2020,2022,6.3,,Annual average rate of change,"Recreation, sport and culture",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP09,EU27_2020,2023,7.4,,Annual average rate of change,"Recreation, sport and culture",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP09,EU27_2020,2024,3.9,,Annual average rate of change,"Recreation, sport and culture",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP09,EU27_2020,2025,2.7,,Annual average rate of change,"Recreation, sport and culture",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP09,RO,2015,1.7,,Annual average rate of change,"Recreation, sport and culture",Romania
+A,RCH_A_AVG,CP09,RO,2016,1.2,,Annual average rate of change,"Recreation, sport and culture",Romania
+A,RCH_A_AVG,CP09,RO,2017,1.5,,Annual average rate of change,"Recreation, sport and culture",Romania
+A,RCH_A_AVG,CP09,RO,2018,3.0,,Annual average rate of change,"Recreation, sport and culture",Romania
+A,RCH_A_AVG,CP09,RO,2019,4.0,,Annual average rate of change,"Recreation, sport and culture",Romania
+A,RCH_A_AVG,CP09,RO,2020,3.2,,Annual average rate of change,"Recreation, sport and culture",Romania
+A,RCH_A_AVG,CP09,RO,2021,3.1,,Annual average rate of change,"Recreation, sport and culture",Romania
+A,RCH_A_AVG,CP09,RO,2022,8.9,,Annual average rate of change,"Recreation, sport and culture",Romania
+A,RCH_A_AVG,CP09,RO,2023,12.9,,Annual average rate of change,"Recreation, sport and culture",Romania
+A,RCH_A_AVG,CP09,RO,2024,10.0,,Annual average rate of change,"Recreation, sport and culture",Romania
+A,RCH_A_AVG,CP09,RO,2025,8.8,,Annual average rate of change,"Recreation, sport and culture",Romania
+A,RCH_A_AVG,CP10,EU27_2020,2015,1.0,,Annual average rate of change,Education services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP10,EU27_2020,2016,1.3,,Annual average rate of change,Education services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP10,EU27_2020,2017,0.2,,Annual average rate of change,Education services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP10,EU27_2020,2018,-0.9,,Annual average rate of change,Education services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP10,EU27_2020,2019,0.9,,Annual average rate of change,Education services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP10,EU27_2020,2020,1.0,,Annual average rate of change,Education services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP10,EU27_2020,2021,0.7,,Annual average rate of change,Education services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP10,EU27_2020,2022,2.0,,Annual average rate of change,Education services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP10,EU27_2020,2023,5.3,,Annual average rate of change,Education services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP10,EU27_2020,2024,4.9,,Annual average rate of change,Education services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP10,EU27_2020,2025,4.7,,Annual average rate of change,Education services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP10,RO,2015,1.9,,Annual average rate of change,Education services,Romania
+A,RCH_A_AVG,CP10,RO,2016,1.2,,Annual average rate of change,Education services,Romania
+A,RCH_A_AVG,CP10,RO,2017,1.4,,Annual average rate of change,Education services,Romania
+A,RCH_A_AVG,CP10,RO,2018,3.1,,Annual average rate of change,Education services,Romania
+A,RCH_A_AVG,CP10,RO,2019,3.5,,Annual average rate of change,Education services,Romania
+A,RCH_A_AVG,CP10,RO,2020,2.7,,Annual average rate of change,Education services,Romania
+A,RCH_A_AVG,CP10,RO,2021,2.4,,Annual average rate of change,Education services,Romania
+A,RCH_A_AVG,CP10,RO,2022,6.1,,Annual average rate of change,Education services,Romania
+A,RCH_A_AVG,CP10,RO,2023,9.2,,Annual average rate of change,Education services,Romania
+A,RCH_A_AVG,CP10,RO,2024,8.5,,Annual average rate of change,Education services,Romania
+A,RCH_A_AVG,CP10,RO,2025,8.9,,Annual average rate of change,Education services,Romania
+A,RCH_A_AVG,CP11,EU27_2020,2015,1.7,,Annual average rate of change,Restaurants and accommodation services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP11,EU27_2020,2016,1.6,,Annual average rate of change,Restaurants and accommodation services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP11,EU27_2020,2017,2.3,,Annual average rate of change,Restaurants and accommodation services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP11,EU27_2020,2018,2.2,,Annual average rate of change,Restaurants and accommodation services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP11,EU27_2020,2019,2.2,,Annual average rate of change,Restaurants and accommodation services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP11,EU27_2020,2020,1.4,,Annual average rate of change,Restaurants and accommodation services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP11,EU27_2020,2021,1.9,,Annual average rate of change,Restaurants and accommodation services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP11,EU27_2020,2022,8.1,,Annual average rate of change,Restaurants and accommodation services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP11,EU27_2020,2023,8.4,,Annual average rate of change,Restaurants and accommodation services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP11,EU27_2020,2024,5.2,,Annual average rate of change,Restaurants and accommodation services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP11,EU27_2020,2025,4.1,,Annual average rate of change,Restaurants and accommodation services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP11,RO,2015,1.4,,Annual average rate of change,Restaurants and accommodation services,Romania
+A,RCH_A_AVG,CP11,RO,2016,0.7,,Annual average rate of change,Restaurants and accommodation services,Romania
+A,RCH_A_AVG,CP11,RO,2017,1.4,,Annual average rate of change,Restaurants and accommodation services,Romania
+A,RCH_A_AVG,CP11,RO,2018,3.2,,Annual average rate of change,Restaurants and accommodation services,Romania
+A,RCH_A_AVG,CP11,RO,2019,3.3,,Annual average rate of change,Restaurants and accommodation services,Romania
+A,RCH_A_AVG,CP11,RO,2020,3.1,,Annual average rate of change,Restaurants and accommodation services,Romania
+A,RCH_A_AVG,CP11,RO,2021,3.0,,Annual average rate of change,Restaurants and accommodation services,Romania
+A,RCH_A_AVG,CP11,RO,2022,8.9,,Annual average rate of change,Restaurants and accommodation services,Romania
+A,RCH_A_AVG,CP11,RO,2023,14.8,,Annual average rate of change,Restaurants and accommodation services,Romania
+A,RCH_A_AVG,CP11,RO,2024,10.7,,Annual average rate of change,Restaurants and accommodation services,Romania
+A,RCH_A_AVG,CP11,RO,2025,10.3,,Annual average rate of change,Restaurants and accommodation services,Romania
+A,RCH_A_AVG,CP12,EU27_2020,2015,1.5,,Annual average rate of change,Insurance and financial services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP12,EU27_2020,2016,1.8,,Annual average rate of change,Insurance and financial services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP12,EU27_2020,2017,2.1,,Annual average rate of change,Insurance and financial services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP12,EU27_2020,2018,0.7,,Annual average rate of change,Insurance and financial services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP12,EU27_2020,2019,1.7,,Annual average rate of change,Insurance and financial services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP12,EU27_2020,2020,3.0,,Annual average rate of change,Insurance and financial services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP12,EU27_2020,2021,2.7,,Annual average rate of change,Insurance and financial services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP12,EU27_2020,2022,2.7,,Annual average rate of change,Insurance and financial services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP12,EU27_2020,2023,4.4,,Annual average rate of change,Insurance and financial services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP12,EU27_2020,2024,6.9,,Annual average rate of change,Insurance and financial services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP12,EU27_2020,2025,5.3,,Annual average rate of change,Insurance and financial services,European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP12,RO,2015,13.8,,Annual average rate of change,Insurance and financial services,Romania
+A,RCH_A_AVG,CP12,RO,2016,10.7,,Annual average rate of change,Insurance and financial services,Romania
+A,RCH_A_AVG,CP12,RO,2017,-10.7,,Annual average rate of change,Insurance and financial services,Romania
+A,RCH_A_AVG,CP12,RO,2018,1.2,,Annual average rate of change,Insurance and financial services,Romania
+A,RCH_A_AVG,CP12,RO,2019,3.2,,Annual average rate of change,Insurance and financial services,Romania
+A,RCH_A_AVG,CP12,RO,2020,13.4,,Annual average rate of change,Insurance and financial services,Romania
+A,RCH_A_AVG,CP12,RO,2021,10.2,,Annual average rate of change,Insurance and financial services,Romania
+A,RCH_A_AVG,CP12,RO,2022,23.5,,Annual average rate of change,Insurance and financial services,Romania
+A,RCH_A_AVG,CP12,RO,2023,9.2,,Annual average rate of change,Insurance and financial services,Romania
+A,RCH_A_AVG,CP12,RO,2024,8.5,,Annual average rate of change,Insurance and financial services,Romania
+A,RCH_A_AVG,CP12,RO,2025,4.4,,Annual average rate of change,Insurance and financial services,Romania
+A,RCH_A_AVG,CP13,EU27_2020,2015,0.7,,Annual average rate of change,"Personal care, social protection and miscellaneous goods and services",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP13,EU27_2020,2016,1.0,,Annual average rate of change,"Personal care, social protection and miscellaneous goods and services",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP13,EU27_2020,2017,0.8,,Annual average rate of change,"Personal care, social protection and miscellaneous goods and services",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP13,EU27_2020,2018,1.2,,Annual average rate of change,"Personal care, social protection and miscellaneous goods and services",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP13,EU27_2020,2019,1.3,,Annual average rate of change,"Personal care, social protection and miscellaneous goods and services",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP13,EU27_2020,2020,1.7,,Annual average rate of change,"Personal care, social protection and miscellaneous goods and services",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP13,EU27_2020,2021,1.9,,Annual average rate of change,"Personal care, social protection and miscellaneous goods and services",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP13,EU27_2020,2022,4.6,,Annual average rate of change,"Personal care, social protection and miscellaneous goods and services",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP13,EU27_2020,2023,6.2,,Annual average rate of change,"Personal care, social protection and miscellaneous goods and services",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP13,EU27_2020,2024,3.0,,Annual average rate of change,"Personal care, social protection and miscellaneous goods and services",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP13,EU27_2020,2025,2.9,,Annual average rate of change,"Personal care, social protection and miscellaneous goods and services",European Union - 27 countries (from 2020)
+A,RCH_A_AVG,CP13,RO,2015,1.5,,Annual average rate of change,"Personal care, social protection and miscellaneous goods and services",Romania
+A,RCH_A_AVG,CP13,RO,2016,0.1,,Annual average rate of change,"Personal care, social protection and miscellaneous goods and services",Romania
+A,RCH_A_AVG,CP13,RO,2017,0.5,,Annual average rate of change,"Personal care, social protection and miscellaneous goods and services",Romania
+A,RCH_A_AVG,CP13,RO,2018,2.4,,Annual average rate of change,"Personal care, social protection and miscellaneous goods and services",Romania
+A,RCH_A_AVG,CP13,RO,2019,2.6,,Annual average rate of change,"Personal care, social protection and miscellaneous goods and services",Romania
+A,RCH_A_AVG,CP13,RO,2020,3.4,,Annual average rate of change,"Personal care, social protection and miscellaneous goods and services",Romania
+A,RCH_A_AVG,CP13,RO,2021,3.5,,Annual average rate of change,"Personal care, social protection and miscellaneous goods and services",Romania
+A,RCH_A_AVG,CP13,RO,2022,7.0,,Annual average rate of change,"Personal care, social protection and miscellaneous goods and services",Romania
+A,RCH_A_AVG,CP13,RO,2023,14.4,,Annual average rate of change,"Personal care, social protection and miscellaneous goods and services",Romania
+A,RCH_A_AVG,CP13,RO,2024,10.3,,Annual average rate of change,"Personal care, social protection and miscellaneous goods and services",Romania
+A,RCH_A_AVG,CP13,RO,2025,8.6,,Annual average rate of change,"Personal care, social protection and miscellaneous goods and services",Romania
