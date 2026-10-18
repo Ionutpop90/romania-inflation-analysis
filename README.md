@@ -3,7 +3,7 @@
 **What made life more expensive in Romania, why the gap with the EU keeps widening, and what it did to purchasing power.**
 An end-to-end analysis built on 141 months of official Eurostat data.
 
-**[▶ Live interactive report](#)** · Report language: Romanian · Stack: Python · DuckDB SQL · vanilla JS/SVG
+**[▶ Live interactive report](https://romania-inflation-analysis.vercel.app)** · Report language: Romanian · Stack: Python · DuckDB SQL · vanilla JS/SVG
 
 ![Report overview](docs/hero.png)
 
