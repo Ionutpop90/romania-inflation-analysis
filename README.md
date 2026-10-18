@@ -99,4 +99,4 @@ All data comes from Eurostat (© European Union, reuse authorised with attributi
 
 ---
 
-*Author: Ionuț · [GitHub](https://github.com/Ionutpop90)*
+*Author: **Ionut Daniel Pop** · GitHub [@Ionutpop90](https://github.com/Ionutpop90)*
